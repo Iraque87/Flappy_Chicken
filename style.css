@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #70c5ce;
+}
+
+#gameCanvas {
+    background-color: #70c5ce;
+    display: block;
+    margin: 0 auto;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#score {
+    font-size: 24px;
+    color: #fff;
+}
